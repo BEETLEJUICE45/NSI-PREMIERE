@@ -1,0 +1,20 @@
+https://www.insee.fr/fr/statistiques/3536630
+
+**Tous les descripteurs ont été modifiés : retrait de tous les underscore '_' les préfixant**
+
+
+Le champ couvre l’ensemble des personnes nées entre 1891 et 2000 en France métropolitaine (sauf celles nées avant 1946 et décédées avant 1972), et celles nées entre 1900 et 2000 dans un département d'outremer (Guadeloupe (code 9A), Martinique (code 9B), Guyane (code 9C), Réunion (code 9D)) ou à Saint-Pierre-et-Miquelon (code 9E).
+
+Pour chacune des personnes du champ mentionné au paragraphe précédent, le répertoire national d’identification des personnes physiques (RNIPP) contient plusieurs variables dont le nom patronymique devenu nom de famille depuis la loi n° 2002-234. Ce nom est celui de l‘état civil et figure sur l’acte de naissance ainsi que sur les autres actes d’état civil (mariage, mention en marge, décès .....). Les noms, y compris ceux séparés par un tiret, attribués jusqu’au 31 décembre 2004 (date d'application de la loi dite sur le nom de famille), formaient une entité non sécable. Depuis, certains noms de famille peuvent être composés d’un double nom séparé par deux tirets ; ces noms sont sécables à la transmission du nom à la génération suivante.
+
+Le fichier départemental ne contient que les noms qui ont été donnés au moins une fois dans un département avec 30 occurences ou plus sur l'ensemble de la période 1891 à 2000. Ensuite, pour ces noms diffusés, on ne donne le code du département que pour les départements où on trouve 30 occurences ou plus sur l'ensemble de la période. Dans le cas contraire le nom est diffusé mais regroupé sous un code département fictif = XX.
+
+Tous les autres noms ont été regroupés sous AUTRES NOMS. Le niveau de diffusion géographique étant le département de naissance on trouve donc une ligne AUTRES NOMS pour chaque département.
+
+Le fichier national ne contient que les noms qui ont été donnés 30 fois ou plus sur l'ensemble de la période. Tous les autres noms ont été regroupés sous AUTRES NOMS.
+
+Les tranches d’âge décennales sont calculées par rapport à l’année de naissance telle qu’elle figure au répertoire ou dans les registres d’état civil ; le département correspond au lieu de naissance de la personne.
+Sources
+
+Une présentation générale de la source état civil est accessible dans la rubrique « Définitions, méthodes et qualité » du site insee.fr.
+
